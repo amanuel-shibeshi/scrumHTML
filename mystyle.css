@@ -18,3 +18,7 @@ ul {
     display: block;
     padding: 8px;
   }
+
+  p{
+      font-size: 20px;
+  }
