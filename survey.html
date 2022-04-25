@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <nav>
+    <a href="./index.html">Home Page</a>
+    <a href="./survey.html">Survey Page</a>
+    <a href="./resources.html">Resources Page</a>
+    <a href="./other-bsm.html">Additional BSMs Page</a>
+  </nav> 
+    <form action="./BSM-html" method="POST">
+        <h1>Future Orientation Survey</h1>
+        <p>This survey will help you to understand where you are when it comes to future orientation. It will help you see what to work on and also what your strengths are. Take 5 minutes or less to dig deep and learn more about you.</p>
+        <label for="username">E-mail:</label>
+        <input type="text" name="username" id="username" required placeholder="Enter a valid email address">
+        <hr>
+        <section class="goals">
+          <label for="frequency">How often do you set goals?</label>
+          <br>
+          <span>Daily</span>
+          <input type="range" name="frequency" id="frequency" value="3" min="1" max="5">
+          <span>Monthly</span>
+        </section>
+        <hr>
+        <section class="future">
+          <span>When I wake up I...</span>
+          <br>
+          <input type="checkbox" name="future" id="night" value="night">
+          <label for="night">Have already planned the night before</label>
+          <input type="checkbox" name="future" id="morning" value="morning">
+          <label for="morning">Plan the morning of</label>
+          <input type="checkbox" name="future" id="go" value="go">
+          <label for="go">Get up and go</label>
+          <input type="checkbox" name="future" id="snooze" value="snooze">
+          <label for="snooze">Hit snooze and rollover</label>
+        </section>
+        <hr>
+        <section class="cheesy">
+          <span>Do you make plans for the future</span>
+          <br>
+          <input type="radio" name="yes" id="yes" value="yes">
+          <label for="yes">Yes</label>
+          <input type="radio" name="sometimes" id="sometimes" value="someimes">
+          <label for="sometimes">Sometimes</label>
+          <input type="radio" name="no" id="no" value="yes">
+          <label for="no">No</label>
+        </section>
+        <hr>
+        <section class="sauce-selection">
+          <label for="sauce">I feel most prepared when</label>
+          <input list="sauces" id="sauce" name="sauce">
+          <datalist id="sauces">
+            <option value="Everything is in order, I'm a perfectionist"></option>
+            <option value="Some things are in order, I am a practical person"></option>
+            <option value="Nothing is in order, bring on the chaos"></option>
+          </datalist>
+        </section>
+        <hr>
+        <section class="submission">
+          <input type="submit"></input>
+          
+        </section>
+        
+      </form>
+    </section>
+    
+</body>
+</html>
