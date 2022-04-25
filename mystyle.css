@@ -22,3 +22,39 @@ ul {
   p{
       font-size: 20px;
   }
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color:whitesmoke;
+    color: rgba(3, 3, 3, 0.915);
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+ 
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
